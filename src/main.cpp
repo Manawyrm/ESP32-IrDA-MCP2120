@@ -56,6 +56,8 @@ void loop()
 		if (commandMode)
 		{
 			uint8_t data = Serial.read();
+			Serial.write(data);
+			
 			switch (data)
 			{
 				case MCP2120_9600:
@@ -83,7 +85,6 @@ void loop()
 					break;
 			}
 
-			Serial.write(data);
 		}
 		else
 		{
