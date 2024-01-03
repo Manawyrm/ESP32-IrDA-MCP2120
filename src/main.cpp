@@ -3,8 +3,6 @@
 	MCP2120 IrDA PHY
 
 	Use irattach /dev/ttyUSB0 -d mcp2120 -s to connect
-
-	Written by Tobias Mädel and Tobias Schramm
 	Date: 19.08.2019
  */
 #include <Arduino.h>
